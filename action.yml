@@ -1,0 +1,14 @@
+ame: 'my first container action'
+description: 'Sabatino lab'
+author: 'Marcos Sabatino'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awesome Flamengo'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
